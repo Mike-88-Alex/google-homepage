@@ -1,6 +1,11 @@
 
 /* NAV */
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -24,11 +29,10 @@
 }
 
 .user-avatar {
-    width: 30px;
-    height: 30px;
+    width: 75%; /* 30px */
+    height: 75%;
     border-radius: 50%;
 }
-
 .nav-link-circle {
     width: 40px;
     height: 40px;
@@ -152,4 +156,8 @@
 
 .footer-link {
     display: block;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
